@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavLinks/> should NavLinks match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1 {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  width: 0;
+  left: 50%;
+  height: 0.2rem;
+  background: red;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.c1:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <a
+    class="c1"
+    href="http://google.com"
+    target="_blank"
+  >
+    google
+  </a>
+  <a
+    class="c1"
+    href="http://twitter.com"
+    target="_blank"
+  >
+    twitter
+  </a>
+  <a
+    class="c1"
+    href="http://uol.com"
+    target="_blank"
+  >
+    uol
+  </a>
+</nav>
+`;

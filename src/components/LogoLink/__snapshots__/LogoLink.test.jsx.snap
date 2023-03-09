@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoLink/> should render LogoLink with correct snapshot 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c1 > img {
+  max-height: 2rem;
+}
+
+.c0 {
+  color: #282828;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h1
+  class="c0"
+  font-size="base"
+>
+  <a
+    class="c1"
+    href="#target"
+  >
+    <img
+      alt="any_text"
+      src="image.jpg"
+    />
+  </a>
+</h1>
+`;
