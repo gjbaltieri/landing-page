@@ -16,24 +16,44 @@ exports[`<NavLinks/> should NavLinks match snapshot 1`] = `
   padding: 1.6rem;
   -webkit-text-decoration: none;
   text-decoration: none;
+  color: #333333;
   position: relative;
+}
+
+.c1:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
 }
 
 .c1::after {
   content: '';
   position: absolute;
   bottom: 0.75rem;
-  width: 0;
-  left: 50%;
-  height: 0.2rem;
-  background: red;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0D0D0D;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .c1:hover::after {
-  left: 25%;
-  width: 50%;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 @media (max-width:768px) {
@@ -49,26 +69,27 @@ exports[`<NavLinks/> should NavLinks match snapshot 1`] = `
 }
 
 <nav
+  aria-label="Main menu"
   class="c0"
 >
   <a
     class="c1"
     href="http://google.com"
-    target="_blank"
+    target="_self"
   >
     google
   </a>
   <a
     class="c1"
     href="http://twitter.com"
-    target="_blank"
+    target="_self"
   >
     twitter
   </a>
   <a
     class="c1"
     href="http://uol.com"
-    target="_blank"
+    target="_self"
   >
     uol
   </a>

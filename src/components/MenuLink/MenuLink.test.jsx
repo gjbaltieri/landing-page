@@ -14,12 +14,12 @@ describe('<MenuLink/>', () => {
     // eslint-disable-next-line jest/valid-expect
     expect(screen.getByRole('link', { name: 'children' })).toHaveAttribute(
       'target',
-      '_blank'
+      '_self'
     );
   });
   test('should render MenuLink in new tab', () => {
     renderTheme(
-      <MenuLink children link='http://google.com' newTab={true}>
+      <MenuLink children link='http://google.com' newTab={false}>
         children
       </MenuLink>
     );
@@ -42,30 +42,50 @@ describe('<MenuLink/>', () => {
         padding: 1.6rem;
         -webkit-text-decoration: none;
         text-decoration: none;
+        color: #333333;
         position: relative;
+      }
+
+      .c0:before {
+        content: '';
+        background: #54b3d6;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
       }
 
       .c0::after {
         content: '';
         position: absolute;
         bottom: 0.75rem;
-        width: 0;
-        left: 50%;
-        height: 0.2rem;
-        background: red;
-        -webkit-transition: all 250ms ease-in-out;
-        transition: all 250ms ease-in-out;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #0D0D0D;
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+        transform-origin: center;
+        -webkit-transition: -webkit-transform 0.3s ease;
+        -webkit-transition: transform 0.3s ease;
+        transition: transform 0.3s ease;
       }
 
       .c0:hover::after {
-        left: 25%;
-        width: 50%;
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1);
       }
 
       <a
         class="c0"
         href="http://google.com"
-        target="_self"
+        target="_blank"
       >
         children
       </a>

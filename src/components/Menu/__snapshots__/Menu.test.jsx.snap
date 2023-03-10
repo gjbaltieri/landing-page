@@ -1,0 +1,494 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu/> should <Menu/> not render links 1`] = `
+.c4 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem;
+}
+
+.c7 {
+  color: #333333;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.c2 {
+  position: fixed;
+  heigth: 10px;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c2 > .c3 {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #0D0D0D;
+  border-bottom: solid #0D0D0D;
+}
+
+.c2 .c6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: none;
+  border: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c8 > img {
+  max-height: 2rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c7 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .c2 > .c3 {
+    display: grid;
+    overflow-y: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #F2F2F2;
+  }
+
+  .c2 .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 6;
+    width: 3.5rem;
+    heigth: 3.5rem;
+    background: none;
+    pointer-events: all;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+<div>
+  <div
+    aria-label="Open/Close menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6 c7"
+          font-size="base"
+        >
+          <a
+            class="c8"
+            href="#Target"
+          >
+            Logo
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="c9"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Menu/> should render Menu with default values 1`] = `
+.c4 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem;
+}
+
+.c7 {
+  color: #333333;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.c2 {
+  position: fixed;
+  heigth: 10px;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c2 > .c3 {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #0D0D0D;
+  border-bottom: solid #0D0D0D;
+}
+
+.c2 .c6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: none;
+  border: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c8 > img {
+  max-height: 2rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c10 {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #333333;
+  position: relative;
+}
+
+.c10:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.c10::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0D0D0D;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.c10:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c7 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .c2 > .c3 {
+    display: grid;
+    overflow-y: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #F2F2F2;
+  }
+
+  .c2 .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 6;
+    width: 3.5rem;
+    heigth: 3.5rem;
+    background: none;
+    pointer-events: all;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+<div>
+  <div
+    aria-label="Open/Close menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6 c7"
+          font-size="base"
+        >
+          <a
+            class="c8"
+            href="#Target"
+          >
+            Logo
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="c9"
+        >
+          <a
+            class="c10"
+            href="http://google.com"
+            target="_self"
+          >
+            google
+          </a>
+          <a
+            class="c10"
+            href="http://twitter.com"
+            target="_self"
+          >
+            twitter
+          </a>
+          <a
+            class="c10"
+            href="http://uol.com"
+            target="_self"
+          >
+            uol
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;

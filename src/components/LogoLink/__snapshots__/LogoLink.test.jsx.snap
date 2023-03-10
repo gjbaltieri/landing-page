@@ -6,6 +6,7 @@ exports[`<LogoLink/> should render LogoLink with correct snapshot 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 1.6rem;
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -16,7 +17,7 @@ exports[`<LogoLink/> should render LogoLink with correct snapshot 1`] = `
 }
 
 .c0 {
-  color: #282828;
+  color: #333333;
   font-size: 1.6rem;
   font-weight: 900;
   text-transform: uppercase;
