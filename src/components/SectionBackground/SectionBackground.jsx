@@ -7,7 +7,7 @@ export default function SectionBackground({ children, background = false }) {
   );
 }
 
-SectionBackground.prototype = {
+SectionBackground.propTypes = {
   children: P.node.isRequired,
   background: P.bool,
 };

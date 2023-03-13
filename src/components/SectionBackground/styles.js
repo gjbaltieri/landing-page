@@ -13,6 +13,5 @@ ${({ theme, background }) => css`
   transition: background 300ms ease-in;
   ${background && containerBackground(theme)};
   min-height: 100vh;
-  display: flex;
   align-items: center;
 `}`;

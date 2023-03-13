@@ -5,6 +5,6 @@ export default function SectionContainer({ children }) {
   return <Styled.Container>{children}</Styled.Container>;
 }
 
-SectionContainer.prototype = {
+SectionContainer.propTypes = {
   children: P.node.isRequired,
 };

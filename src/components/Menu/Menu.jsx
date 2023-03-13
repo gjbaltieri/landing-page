@@ -36,7 +36,7 @@ export default function Menu({ links = [], logoData }) {
   );
 }
 
-Menu.prototype = {
+Menu.propTypes = {
   ...NavLinks.propTypes,
   logoData: P.shape(LogoLink.propTypes).isRequired,
 };

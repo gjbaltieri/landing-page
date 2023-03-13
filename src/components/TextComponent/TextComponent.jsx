@@ -5,6 +5,6 @@ export default function TextComponent({ children }) {
   return <Styled.Container>{children}</Styled.Container>;
 }
 
-TextComponent.prototype = {
+TextComponent.propTypes = {
   children: P.node.isRequired,
 };

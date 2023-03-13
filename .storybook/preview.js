@@ -5,8 +5,8 @@ import { theme } from '../src/style/theme';
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   backgrounds: {
-    light: '#feefff',
-    dark: '#0D0D0D',
+    light: '#F2F2F2',
+    dark: '#333333',
   },
   controls: {
     matchers: {

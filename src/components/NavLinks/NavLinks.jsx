@@ -12,7 +12,7 @@ export default function NavLinks({ links = [] }) {
   );
 }
 
-NavLinks.prototype = {
+NavLinks.propTypes = {
   links: P.arrayOf(
     P.shape({
       children: P.string.isRequired,

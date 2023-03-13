@@ -10,7 +10,7 @@ export default function MenuLink({ children, newTab, link }) {
   );
 }
 
-MenuLink.prototype = {
+MenuLink.propTypes = {
   children: P.node.isRequired,
   link: P.node.isRequired,
   newTab: P.bool,

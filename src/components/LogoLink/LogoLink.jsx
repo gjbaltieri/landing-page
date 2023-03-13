@@ -13,7 +13,7 @@ export default function LogoLink({ imgSrc = '', text, link }) {
   );
 }
 
-LogoLink.prototype = {
+LogoLink.propTypes = {
   link: P.string.isRequired,
   text: P.string.isRequired,
   imgSrc: P.string,
