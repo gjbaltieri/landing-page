@@ -3,10 +3,11 @@ import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
 import renderTheme from '../../style/renderTheme';
 import Grid from './Grid';
+import Mock from './grid-mock';
 
 describe('<Grid/>', () => {
   test('should render Grid with default values', () => {
-    renderTheme(<Grid>children</Grid>);
-    expect(screen.getByRole('heading')).toBeInTheDocument();
+    const { container } = renderTheme(<Grid {...Mock} />);
+    expect(container).toMatchSnapshot();
   });
 });

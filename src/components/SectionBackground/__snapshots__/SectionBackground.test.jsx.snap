@@ -9,10 +9,6 @@ exports[`<SectionBackground/> should render SectionBackground with background da
   background: #0D0D0D;
   color: #F2F2F2;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -37,10 +33,6 @@ exports[`<SectionBackground/> should render SectionBackground with background wh
   -webkit-transition: background 300ms ease-in;
   transition: background 300ms ease-in;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
