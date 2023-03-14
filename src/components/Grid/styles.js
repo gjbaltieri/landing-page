@@ -3,7 +3,6 @@ import { Title } from '../Header/Title';
 
 export const Container = styled.div`
   ${({ theme, background }) => css`
-    padding: ${theme.padding.small};
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;

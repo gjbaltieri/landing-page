@@ -9,6 +9,7 @@ const MenuClose = (theme) => css`
 
 export const Container = Styled.div`
   ${({ theme, visible }) => css`
+    left: 0;
     position: fixed;
     heigth: 10px;
     z-index: 5;
