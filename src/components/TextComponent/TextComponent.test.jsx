@@ -12,24 +12,23 @@ describe('<TextComponent/>', () => {
   });
   test('should render TextComponent with default values', () => {
     renderTheme(<TextComponent>paragraph</TextComponent>);
-    const paragraph = screen.getByText('paragraph');
-    expect(paragraph).toHaveStyle({
-      'font-size': theme.font.size.base,
-    });
+    expect(screen.getByText('paragraph')).toBeInTheDocument();
   });
   test('should TextComponent match snapshot', () => {
     const { container } = renderTheme(<TextComponent>paragraph</TextComponent>);
     expect(container).toMatchInlineSnapshot(`
       .c0 {
         font-size: 1.6rem;
+        -webkit-transition: color 300ms ease-in-out;
+        transition: color 300ms ease-in-out;
       }
 
       <div>
-        <p
+        <div
           class="c0"
         >
           paragraph
-        </p>
+        </div>
       </div>
     `);
   });

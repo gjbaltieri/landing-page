@@ -4,7 +4,7 @@ import renderTheme from '../../style/renderTheme';
 import GridText from './GridText';
 import Mock from '../GridText/mock-GridText';
 
-describe('<GridText/>', () => {
+describe.only('<GridText/>', () => {
   test('should render GridText with default values', () => {
     const { container } = renderTheme(<GridText {...Mock} />);
     expect(container).toMatchSnapshot();

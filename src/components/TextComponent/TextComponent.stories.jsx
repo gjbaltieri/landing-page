@@ -5,7 +5,7 @@ export default {
   title: 'TextComponent',
   component: TextComponent,
   args: {
-    children: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    html: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
     Eveniet fugit laboriosam dolores dolore ratione sit possimus consectetur 
     doloremque quam. Totam beatae dolorem animi eius. Quaerat molestiae fugit 
     inventore exercitationem ea?`,

@@ -8,7 +8,7 @@ describe('<SectionContainer/>', () => {
   test('should render SectionContainer with default values', () => {
     const { container } = renderTheme(
       <SectionContainer>
-        <h1>Children</h1>
+        <h1>hello world</h1>
       </SectionContainer>
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();

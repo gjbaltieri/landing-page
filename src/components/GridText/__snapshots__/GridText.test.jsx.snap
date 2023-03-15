@@ -1,31 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridText/> should render GridText with default values 1`] = `
-.c3 {
+.c4 {
   color: #333333;
   font-size: font-size:3.2rem;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 3.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
-.c8 {
+.c9 {
   color: #333333;
   font-size: font-size:1.6rem;
   font-weight: 900;
   text-transform: none;
   font-size: 1.6rem;
-}
-
-.c5 {
-  font-size: 1.6rem;
-}
-
-.c1 .c4 {
-  margin-bottom: 6.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 .c6 {
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c2 .c5 {
+  margin-bottom: 6.2rem;
+}
+
+.c7 {
   counter-reset: element-counter;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
@@ -33,16 +39,16 @@ exports[`<GridText/> should render GridText with default values 1`] = `
   width: 100%;
 }
 
-.c7 {
+.c8 {
   padding: 1.6rem;
 }
 
-.c7 .c2 {
+.c8 .c3 {
   position: relative;
   left: 5rem;
 }
 
-.c7 .c2::before {
+.c8 .c3::before {
   counter-increment: element-counter;
   content: counter(element-counter);
   position: absolute;
@@ -55,20 +61,22 @@ exports[`<GridText/> should render GridText with default values 1`] = `
 }
 
 .c0 {
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
   background: #F2F2F2;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-  -webkit-justify-content: right;
-  -ms-flex-pack: right;
-  justify-content: right;
+  width: 100%;
+}
+
+.c1 {
+  max-width: 120rem;
+  padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media (max-width:768px) {
-  .c6 {
+  .c7 {
     grid-template-columns: 1fr;
   }
 }
@@ -80,64 +88,68 @@ exports[`<GridText/> should render GridText with default values 1`] = `
     <div
       class="c1"
     >
-      <h2
-        class="c2 c3"
-        font-size="large"
-      >
-        meu
-      </h2>
-      <p
-        class="c4 c5"
-      >
-        description
-      </p>
       <div
-        class="c6"
+        class="c2"
       >
-        <div
-          class="c7"
+        <h2
+          class="c3 c4"
+          font-size="large"
         >
-          <h3
-            class="c2 c8"
-            font-size="base"
-          >
-            Title 1
-          </h3>
-          <p
-            class="c4 c5"
-          >
-            Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
-          </p>
+          meu
+        </h2>
+        <div
+          class="c5 c6"
+        >
+          description
         </div>
         <div
           class="c7"
         >
-          <h3
-            class="c2 c8"
-            font-size="base"
+          <div
+            class="c8"
           >
-            Title 2
-          </h3>
-          <p
-            class="c4 c5"
+            <h3
+              class="c3 c9"
+              font-size="base"
+            >
+              Title 1
+            </h3>
+            <div
+              class="c5 c6"
+            >
+              Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
+            </div>
+          </div>
+          <div
+            class="c8"
           >
-            Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
-          </p>
-        </div>
-        <div
-          class="c7"
-        >
-          <h3
-            class="c2 c8"
-            font-size="base"
+            <h3
+              class="c3 c9"
+              font-size="base"
+            >
+              Title 2
+            </h3>
+            <div
+              class="c5 c6"
+            >
+              Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
+            </div>
+          </div>
+          <div
+            class="c8"
           >
-            Title 3
-          </h3>
-          <p
-            class="c4 c5"
-          >
-            Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
-          </p>
+            <h3
+              class="c3 c9"
+              font-size="base"
+            >
+              Title 3
+            </h3>
+            <div
+              class="c5 c6"
+            >
+              Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -146,31 +158,37 @@ exports[`<GridText/> should render GridText with default values 1`] = `
 `;
 
 exports[`<GridText/> should render GridText without background 1`] = `
-.c3 {
+.c4 {
   color: #333333;
   font-size: font-size:3.2rem;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 3.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
-.c8 {
+.c9 {
   color: #333333;
   font-size: font-size:1.6rem;
   font-weight: 900;
   text-transform: none;
   font-size: 1.6rem;
-}
-
-.c5 {
-  font-size: 1.6rem;
-}
-
-.c1 .c4 {
-  margin-bottom: 6.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 .c6 {
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c2 .c5 {
+  margin-bottom: 6.2rem;
+}
+
+.c7 {
   counter-reset: element-counter;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
@@ -178,16 +196,16 @@ exports[`<GridText/> should render GridText without background 1`] = `
   width: 100%;
 }
 
-.c7 {
+.c8 {
   padding: 1.6rem;
 }
 
-.c7 .c2 {
+.c8 .c3 {
   position: relative;
   left: 5rem;
 }
 
-.c7 .c2::before {
+.c8 .c3::before {
   counter-increment: element-counter;
   content: counter(element-counter);
   position: absolute;
@@ -200,20 +218,22 @@ exports[`<GridText/> should render GridText without background 1`] = `
 }
 
 .c0 {
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
   background: #F2F2F2;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-  -webkit-justify-content: right;
-  -ms-flex-pack: right;
-  justify-content: right;
+  width: 100%;
+}
+
+.c1 {
+  max-width: 120rem;
+  padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media (max-width:768px) {
-  .c6 {
+  .c7 {
     grid-template-columns: 1fr;
   }
 }
@@ -225,64 +245,68 @@ exports[`<GridText/> should render GridText without background 1`] = `
     <div
       class="c1"
     >
-      <h2
-        class="c2 c3"
-        font-size="large"
-      >
-        meu
-      </h2>
-      <p
-        class="c4 c5"
-      >
-        description
-      </p>
       <div
-        class="c6"
+        class="c2"
       >
-        <div
-          class="c7"
+        <h2
+          class="c3 c4"
+          font-size="large"
         >
-          <h3
-            class="c2 c8"
-            font-size="base"
-          >
-            Title 1
-          </h3>
-          <p
-            class="c4 c5"
-          >
-            Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
-          </p>
+          meu
+        </h2>
+        <div
+          class="c5 c6"
+        >
+          description
         </div>
         <div
           class="c7"
         >
-          <h3
-            class="c2 c8"
-            font-size="base"
+          <div
+            class="c8"
           >
-            Title 2
-          </h3>
-          <p
-            class="c4 c5"
+            <h3
+              class="c3 c9"
+              font-size="base"
+            >
+              Title 1
+            </h3>
+            <div
+              class="c5 c6"
+            >
+              Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
+            </div>
+          </div>
+          <div
+            class="c8"
           >
-            Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
-          </p>
-        </div>
-        <div
-          class="c7"
-        >
-          <h3
-            class="c2 c8"
-            font-size="base"
+            <h3
+              class="c3 c9"
+              font-size="base"
+            >
+              Title 2
+            </h3>
+            <div
+              class="c5 c6"
+            >
+              Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
+            </div>
+          </div>
+          <div
+            class="c8"
           >
-            Title 3
-          </h3>
-          <p
-            class="c4 c5"
-          >
-            Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
-          </p>
+            <h3
+              class="c3 c9"
+              font-size="base"
+            >
+              Title 3
+            </h3>
+            <div
+              class="c5 c6"
+            >
+              Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -3,8 +3,9 @@
 exports[`<SectionContainer/> should render SectionContainer with default values 1`] = `
 .c0 {
   max-width: 120rem;
-  margin: 0 auto;
   padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 <div>
@@ -12,7 +13,7 @@ exports[`<SectionContainer/> should render SectionContainer with default values 
     class="c0"
   >
     <h1>
-      Children
+      hello world
     </h1>
   </div>
 </div>

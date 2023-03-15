@@ -18,15 +18,12 @@ exports[`<LogoLink/> should render LogoLink with correct snapshot 1`] = `
 
 .c0 {
   color: #333333;
-  font-size: 1.6rem;
+  font-size: font-size:1.6rem;
   font-weight: 900;
   text-transform: uppercase;
-}
-
-@media (max-width:768px) {
-  .c0 {
-    font-size: 4.0rem;
-  }
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 <h1

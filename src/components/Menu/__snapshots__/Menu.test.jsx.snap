@@ -3,18 +3,23 @@
 exports[`<Menu/> should <Menu/> not render links 1`] = `
 .c4 {
   max-width: 120rem;
-  margin: 0 auto;
   padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .c7 {
   color: #333333;
-  font-size: 1.6rem;
+  font-size: font-size:1.6rem;
   font-weight: 900;
   text-transform: uppercase;
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 .c2 {
+  left: 0;
   position: fixed;
   heigth: 10px;
   z-index: 5;
@@ -87,12 +92,6 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
-}
-
-@media (max-width:768px) {
-  .c7 {
-    font-size: 4.0rem;
-  }
 }
 
 @media (max-width:768px) {
@@ -216,18 +215,23 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
 exports[`<Menu/> should render Menu with default values 1`] = `
 .c4 {
   max-width: 120rem;
-  margin: 0 auto;
   padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .c7 {
   color: #333333;
-  font-size: 1.6rem;
+  font-size: font-size:1.6rem;
   font-weight: 900;
   text-transform: uppercase;
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 .c2 {
+  left: 0;
   position: fixed;
   heigth: 10px;
   z-index: 5;
@@ -345,12 +349,6 @@ exports[`<Menu/> should render Menu with default values 1`] = `
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
-}
-
-@media (max-width:768px) {
-  .c7 {
-    font-size: 4.0rem;
-  }
 }
 
 @media (max-width:768px) {

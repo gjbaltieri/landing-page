@@ -1,8 +1,9 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  background: 'P.string.isRequired',
-  title: ' P.string.isRequired',
-  description: 'P.string.isRequire',
+  background: false,
+  title: 'Album',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Senectus et netus et malesuada fames ac. Congue nisi vitae suscipit tellus mauris a diam. Erat imperdiet sed euismod nisi porta lorem mollis. Pretium fusce id velit ut tortor pretium viverra suspendisse. At lectus urna duis convallis convallis tellus id interdum velit. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Convallis aenean et tortor at. Justo laoreet sit amet cursus sit amet dictum. Condimentum lacinia quis vel eros donec ac. Magna sit amet purus gravida. Amet nisl purus in mollis nunc sed id. Placerat duis ultricies lacus sed. Ut diam quam nulla porttitor massa id neque. Tempus imperdiet nulla malesuada pellentesque. At volutpat diam ut venenatis. Lacus luctus accumsan tortor posuere ac ut consequat semper. Ultricies integer quis auctor elit.',
   grid: [
     {
       srcImg:

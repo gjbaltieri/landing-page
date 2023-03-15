@@ -1,15 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Grid/> should render Grid with default values 1`] = `
-.c4 {
+.c5 {
   color: #333333;
-  font-size: 6.2rem;
+  font-size: font-size:6.2rem;
   font-weight: 900;
   text-transform: none;
+  font-size: 6.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
-.c1 {
-  padding: 0.8rem;
+.c2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
   -webkit-align-items: center;
@@ -19,11 +21,11 @@ exports[`<Grid/> should render Grid with default values 1`] = `
   gap: 3.2rem;
 }
 
-.c1 .c3 {
+.c2 .c4 {
   margin-bottom: 4.0rem;
 }
 
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -33,34 +35,45 @@ exports[`<Grid/> should render Grid with default values 1`] = `
   flex-direction: column;
 }
 
-.c6 {
+.c7 {
   width: 100%;
 }
 
 .c0 {
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
   background: #F2F2F2;
-  color: #333333;
-  -webkit-transition: background 300ms ease-in;
-  transition: background 300ms ease-in;
   min-height: 100vh;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  width: 100%;
 }
 
-.c5 {
+.c1 {
+  max-width: 120rem;
+  padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c6 {
   font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 @media (max-width:768px) {
-  .c4 {
+  .c5 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c1 {
+  .c5 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
     grid-template-columns: 1fr;
     text-align: center;
   }
@@ -76,30 +89,34 @@ exports[`<Grid/> should render Grid with default values 1`] = `
       <div
         class="c2"
       >
-        <h1
-          class="c3 c4"
-          font-size="xhuge"
+        <div
+          class="c3"
         >
-          Grid
-        </h1>
-        <p
-          class="c5"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          <h1
+            class="c4 c5"
+            font-size="xhuge"
+          >
+            Grid
+          </h1>
+          <div
+            class="c6"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Sed hendrerit quam non turpis fringilla, id varius odio aliquet. 
     Curabitur posuere odio et purus consectetur, vel molestie mauris pulvinar. 
     Morbi id lectus id velit suscipit consequat sit amet eget mauris. Nam nec ex ac nunc mattis malesuada. 
     Pellentesque eu libero vitae risus facilisis imperdiet sed sit amet velit.
-        </p>
-      </div>
-      <div
-        class=""
-      >
-        <img
-          alt="Grid"
-          class="c6"
-          src="https://www.svgrepo.com/show/476982/bridge.svg"
-        />
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <img
+            alt="Grid"
+            class="c7"
+            src="https://www.svgrepo.com/show/476982/bridge.svg"
+          />
+        </div>
       </div>
     </div>
   </div>

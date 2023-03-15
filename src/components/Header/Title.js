@@ -46,8 +46,8 @@ export const Title = Styled.h1`
         : theme.color.heading.black};
       font-size: ${titleSize[fontSize](theme)};
       font-weight: ${theme.font.weight};
-      padding: ${theme.padding.base} 0;
       ${isUppercase(uppercase)};
       ${titleSize[fontSize](theme)};
+      transition: color 300ms ease-in-out;
     `}
 `;

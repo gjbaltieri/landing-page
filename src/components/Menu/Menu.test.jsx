@@ -24,7 +24,7 @@ describe('<Menu/>', () => {
   });
 
   test('should render Menu mobile with button', () => {
-    const { container } = renderTheme(<Menu logoData={logoData} />);
+    renderTheme(<Menu logoData={logoData} />);
     const button = screen.getByLabelText('Open/Close menu');
     // eslint-disable-next-line testing-library/no-node-access
     const menuContainer = button.nextSibling;
