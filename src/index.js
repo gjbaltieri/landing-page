@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './noPadding.css';
 import reportWebVitals from './reportWebVitals';
 import Heading from './components/Header/Heading';
 import { ThemeProvider } from 'styled-components';

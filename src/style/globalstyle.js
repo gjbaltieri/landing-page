@@ -1,14 +1,38 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle`
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 62,5%;
-        font-family: Montserrat, sans-serif;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box
-    } 
+export const GlobalStyles = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-size: 1.6rem;
+    font-family: ${({ theme }) => theme.font.family.default};
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: ${({ theme }) => theme.font.family.secondary};
+    margin: ${({ theme }) => theme.padding.large} 0;
+  }
+  p {
+    margin: ${({ theme }) => theme.padding.medium} 0;
+  }
+  ul, ol {
+    margin: ${({ theme }) => theme.padding.medium};
+    padding: ${({ theme }) => theme.padding.medium};
+  }
+  a {
+    color: ${({ theme }) => theme.color.black};
+  }
+  .table {
+    width: 100%;
+    overflow-y: auto;
+  }
+  .sb-main-padded {
+    padding: 0
+  }
 `;

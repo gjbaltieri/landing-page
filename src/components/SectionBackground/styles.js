@@ -13,6 +13,6 @@ export const Container = styled.div`
     min-height: 100vh;
     ${background && containerBackground(theme)};
     display: flex;
-    justify-content: right;
+    justify-content: center;
   `}
 `;

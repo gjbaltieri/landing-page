@@ -11,6 +11,10 @@ export const theme = {
   },
   font: {
     weight: '900',
+    family: {
+      default: "'Open Sans', sans-serif",
+      secondary: "'Montserrat', sans-serif",
+    },
     size: {
       small: '0.8rem',
       base: '1.6rem',
