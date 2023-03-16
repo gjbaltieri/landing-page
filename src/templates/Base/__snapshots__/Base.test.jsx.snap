@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Base/> should render Base with default values 1`] = `
+.c4 {
+  max-width: 120rem;
+  padding: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c7 {
+  color: #333333;
+  font-size: font-size:1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c15 {
+  color: #F2F2F2;
+  font-size: font-size:3.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c20 {
+  color: #F2F2F2;
+  font-size: font-size:1.6rem;
+  font-weight: 900;
+  text-transform: none;
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c22 {
+  color: #333333;
+  font-size: font-size:3.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c23 {
+  color: #333333;
+  font-size: font-size:1.6rem;
+  font-weight: 900;
+  text-transform: none;
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c11 {
+  color: #333333;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c11:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.c11::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.c11:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c2 {
+  position: fixed;
+  heigth: 10px;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background: #F2F2F2;
+}
+
+.c2 .c10::after {
+  background-color: #0D0D0D;
+}
+
+.c2 > .c3 {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #F2F2F2;
+  border-bottom: solid #F2F2F2;
+}
+
+.c2 .c6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #0D0D0D;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0D0D0D;
+}
+
+.c0 {
+  display: none;
+  border: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c8 > img {
+  max-height: 2rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c24 {
+  text-align: center;
+  border-top: 0.1rem solid #0D0D0D;
+}
+
+.c24 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.c24 .c3 {
+  padding: 0;
+}
+
+.c17 {
+  font-size: 1.6rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c25 {
+  background: #0D0D0D;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  color: #F2F2F2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  opacity: 0.6;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.c25:hover {
+  opacity: 1;
+  bottom: 3rem;
+}
+
+.c12 {
+  padding-top: 4.8rem;
+}
+
+.c14 .c16 {
+  margin-bottom: 6.2rem;
+}
+
+.c18 {
+  counter-reset: element-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  overflow: hidden;
+  width: 100%;
+}
+
+.c19 {
+  padding: 1.6rem;
+}
+
+.c19 .c6 {
+  font-size: 3.2rem;
+  position: relative;
+  left: 5rem;
+}
+
+.c19 .c6::before {
+  counter-increment: element-counter;
+  content: counter(element-counter);
+  position: absolute;
+  top: -2rem;
+  left: -5rem;
+  font-size: 4.8rem;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.c13 {
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  background: #F2F2F2;
+  min-height: 100vh;
+  width: 100%;
+  background: #0D0D0D;
+  color: #F2F2F2;
+}
+
+.c21 {
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  background: #F2F2F2;
+  min-height: 100vh;
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .c2 > .c3 {
+    display: grid;
+    overflow-y: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #F2F2F2;
+  }
+
+  .c2 .c10 {
+    color: #0D0D0D;
+  }
+
+  .c2 .c10::after {
+    background-color: #0D0D0D;
+  }
+
+  .c2 .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 3.2rem;
+    color: #0D0D0D;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    color: #F2F2F2;
+    padding: 2px;
+    background: #0D0D0D;
+    opacity: 0.6;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 6;
+    width: 3.5rem;
+    heigth: 3.5rem;
+    pointer-events: all;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c18 {
+    grid-template-columns: 1fr;
+  }
+}
+
+<div>
+  <div
+    aria-label="Open/Close menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6 c7"
+          font-size="base"
+        >
+          <a
+            class="c8"
+            href="#"
+          >
+            Logo
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="c9"
+        >
+          <a
+            class="c10 c11"
+            href="http://google.com"
+            target="_self"
+          >
+            google
+          </a>
+          <a
+            class="c10 c11"
+            href="http://twitter.com"
+            target="_self"
+          >
+            twitter
+          </a>
+          <a
+            class="c10 c11"
+            href="http://uol.com"
+            target="_self"
+          >
+            uol
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c12"
+  >
+    <div
+      class="c13"
+    >
+      <div
+        class="c3 c4"
+      >
+        <div
+          class="c14"
+        >
+          <h2
+            class="c6 c15"
+            font-size="large"
+          >
+            meu
+          </h2>
+          <div
+            class="c16 c17"
+          >
+            description
+          </div>
+          <div
+            class="c18"
+          >
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c20"
+                font-size="base"
+              >
+                Title 1
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
+              </div>
+            </div>
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c20"
+                font-size="base"
+              >
+                Title 2
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
+              </div>
+            </div>
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c20"
+                font-size="base"
+              >
+                Title 3
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c21"
+    >
+      <div
+        class="c3 c4"
+      >
+        <div
+          class="c14"
+        >
+          <h2
+            class="c6 c22"
+            font-size="large"
+          >
+            meu
+          </h2>
+          <div
+            class="c16 c17"
+          >
+            description
+          </div>
+          <div
+            class="c18"
+          >
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c23"
+                font-size="base"
+              >
+                Title 1
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
+              </div>
+            </div>
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c23"
+                font-size="base"
+              >
+                Title 2
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
+              </div>
+            </div>
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c23"
+                font-size="base"
+              >
+                Title 3
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c13"
+    >
+      <div
+        class="c3 c4"
+      >
+        <div
+          class="c14"
+        >
+          <h2
+            class="c6 c15"
+            font-size="large"
+          >
+            meu
+          </h2>
+          <div
+            class="c16 c17"
+          >
+            description
+          </div>
+          <div
+            class="c18"
+          >
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c20"
+                font-size="base"
+              >
+                Title 1
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Auctor augue mauris augue neque gravida in. Est placerat in egestas erat imperdiet. Habitant morbi tristique senectus et netus. Congue nisi vitae suscipit tellus mauris. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque felis imperdiet proin fermentum leo vel orci. Pellentesque sit amet porttitor eget dolor morbi. Semper risus in hendrerit gravida rutrum quisque non.
+              </div>
+            </div>
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c20"
+                font-size="base"
+              >
+                Title 2
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Amet risus nullam eget felis eget nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Vel facilisis volutpat est velit egestas dui id. In nibh mauris cursus mattis molestie a iaculis at. Cras adipiscing enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
+              </div>
+            </div>
+            <div
+              class="c19"
+            >
+              <h3
+                class="c6 c20"
+                font-size="base"
+              >
+                Title 3
+              </h3>
+              <div
+                class="c16 c17"
+              >
+                Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Augue mauris augue neque gravida in fermentum et. Dolor sed viverra ipsum nunc aliquet. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Amet nulla facilisi morbi tempus iaculis urna id. 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c24"
+    >
+      <div
+        class="c3 c4"
+      >
+        <div
+          class="c16 c17"
+        >
+          <p>
+            <a
+              href="http://instagram.com/gjbaltieri"
+            >
+              @gjbaltieri
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a
+    aria-label="Go top"
+    class="c25"
+    href="#"
+    title="Go top"
+  >
+    <svg
+      aria-hidden="true"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+      />
+    </svg>
+  </a>
+</div>
+`;

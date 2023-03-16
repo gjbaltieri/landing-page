@@ -71,6 +71,7 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!<rootDir>/src/*.{js,jsx}",
+      "!<rootDir>/templates/App/index.jsx",
       "!<rootDir>/src/**/*mock*.{js,jsx}",
       "!<rootDir>/src/styles/*.{js,jsx}",
       "!<rootDir>/src/**/**.stories.{js,jsx}"

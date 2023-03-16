@@ -1,48 +1,48 @@
-import 'jest-styled-components';
-import '@testing-library/jest-dom';
-import { screen } from '@testing-library/react';
-import renderTheme from '../../style/renderTheme';
-import MenuLink from './MenuLink';
+import "jest-styled-components";
+import "@testing-library/jest-dom";
+import { screen } from "@testing-library/react";
+import renderTheme from "../../style/renderTheme";
+import MenuLink from "./MenuLink";
 
-describe('<MenuLink/>', () => {
-  test('should render MenuLink with default values', () => {
+describe("<MenuLink/>", () => {
+  test("should render MenuLink with default values", () => {
     renderTheme(
-      <MenuLink children link='http://google.com'>
+      <MenuLink children link="http://google.com">
         children
       </MenuLink>
     );
     // eslint-disable-next-line jest/valid-expect
-    expect(screen.getByRole('link', { name: 'children' })).toHaveAttribute(
-      'target',
-      '_self'
+    expect(screen.getByRole("link", { name: "children" })).toHaveAttribute(
+      "target",
+      "_self"
     );
   });
-  test('should render MenuLink in new tab', () => {
+  test("should render MenuLink in new tab", () => {
     renderTheme(
-      <MenuLink children link='http://google.com' newTab={false}>
+      <MenuLink children link="http://google.com" newTab={false}>
         children
       </MenuLink>
     );
     // eslint-disable-next-line jest/valid-expect
-    expect(screen.getByRole('link', { name: 'children' })).toHaveAttribute(
-      'target',
-      '_self'
+    expect(screen.getByRole("link", { name: "children" })).toHaveAttribute(
+      "target",
+      "_self"
     );
   });
-  test('should MenuLink match snapshot', () => {
+  test("should MenuLink match snapshot", () => {
     const { container } = renderTheme(
-      <MenuLink children link='http://google.com' newTab={true}>
+      <MenuLink children link="http://google.com" newTab={true}>
         children
       </MenuLink>
     );
     // eslint-disable-next-line testing-library/no-node-access
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
+        color: #333333;
         font-size: 1.6rem;
         padding: 1.6rem;
         -webkit-text-decoration: none;
         text-decoration: none;
-        color: #333333;
         position: relative;
       }
 
@@ -64,7 +64,7 @@ describe('<MenuLink/>', () => {
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: #0D0D0D;
+        background-color: white;
         -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
         transform: scaleX(0);

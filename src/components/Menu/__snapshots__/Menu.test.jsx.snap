@@ -19,28 +19,29 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
 }
 
 .c2 {
-  left: 0;
   position: fixed;
   heigth: 10px;
+  width: 100%;
   z-index: 5;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  background: #F2F2F2;
 }
 
 .c2 > .c3 {
   padding-top: 0;
   padding-bottom: 0;
-  background: #0D0D0D;
-  border-bottom: solid #0D0D0D;
+  background: #F2F2F2;
+  border-bottom: solid #F2F2F2;
 }
 
 .c2 .c6 {
   margin-top: 0;
   margin-bottom: 0;
+  color: #0D0D0D;
 }
 
 .c5 {
@@ -56,6 +57,7 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #0D0D0D;
 }
 
 .c0 {
@@ -124,6 +126,7 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
     -ms-flex-pack: center;
     justify-content: center;
     padding-bottom: 3.2rem;
+    color: #0D0D0D;
   }
 }
 
@@ -136,6 +139,11 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
 
 @media (max-width:768px) {
   .c0 {
+    color: #F2F2F2;
+    padding: 2px;
+    background: #0D0D0D;
+    opacity: 0.6;
+    border-radius: 50%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -146,7 +154,6 @@ exports[`<Menu/> should <Menu/> not render links 1`] = `
     z-index: 6;
     width: 3.5rem;
     heigth: 3.5rem;
-    background: none;
     pointer-events: all;
   }
 }
@@ -230,29 +237,79 @@ exports[`<Menu/> should render Menu with default values 1`] = `
   transition: color 300ms ease-in-out;
 }
 
-.c2 {
+.c11 {
+  color: #333333;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c11:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
   left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.c11::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.c11:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c2 {
   position: fixed;
   heigth: 10px;
+  width: 100%;
   z-index: 5;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  background: #F2F2F2;
+}
+
+.c2 .c10::after {
+  background-color: #0D0D0D;
 }
 
 .c2 > .c3 {
   padding-top: 0;
   padding-bottom: 0;
-  background: #0D0D0D;
-  border-bottom: solid #0D0D0D;
+  background: #F2F2F2;
+  border-bottom: solid #F2F2F2;
 }
 
 .c2 .c6 {
   margin-top: 0;
   margin-bottom: 0;
+  color: #0D0D0D;
 }
 
 .c5 {
@@ -268,6 +325,7 @@ exports[`<Menu/> should render Menu with default values 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #0D0D0D;
 }
 
 .c0 {
@@ -300,51 +358,6 @@ exports[`<Menu/> should render Menu with default values 1`] = `
   flex-flow: row wrap;
 }
 
-.c10 {
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: #333333;
-  position: relative;
-}
-
-.c10:before {
-  content: '';
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-}
-
-.c10::after {
-  content: '';
-  position: absolute;
-  bottom: 0.75rem;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #0D0D0D;
-  -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-transition: -webkit-transform 0.3s ease;
-  -webkit-transition: transform 0.3s ease;
-  transition: transform 0.3s ease;
-}
-
-.c10:hover::after {
-  -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
 .c1 {
   display: inline-block;
   vertical-align: middle;
@@ -371,6 +384,14 @@ exports[`<Menu/> should render Menu with default values 1`] = `
     background: #F2F2F2;
   }
 
+  .c2 .c10 {
+    color: #0D0D0D;
+  }
+
+  .c2 .c10::after {
+    background-color: #0D0D0D;
+  }
+
   .c2 .c6 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -381,6 +402,7 @@ exports[`<Menu/> should render Menu with default values 1`] = `
     -ms-flex-pack: center;
     justify-content: center;
     padding-bottom: 3.2rem;
+    color: #0D0D0D;
   }
 }
 
@@ -393,6 +415,11 @@ exports[`<Menu/> should render Menu with default values 1`] = `
 
 @media (max-width:768px) {
   .c0 {
+    color: #F2F2F2;
+    padding: 2px;
+    background: #0D0D0D;
+    opacity: 0.6;
+    border-radius: 50%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -403,7 +430,6 @@ exports[`<Menu/> should render Menu with default values 1`] = `
     z-index: 6;
     width: 3.5rem;
     heigth: 3.5rem;
-    background: none;
     pointer-events: all;
   }
 }
@@ -464,21 +490,21 @@ exports[`<Menu/> should render Menu with default values 1`] = `
           class="c9"
         >
           <a
-            class="c10"
+            class="c10 c11"
             href="http://google.com"
             target="_self"
           >
             google
           </a>
           <a
-            class="c10"
+            class="c10 c11"
             href="http://twitter.com"
             target="_self"
           >
             twitter
           </a>
           <a
-            class="c10"
+            class="c10 c11"
             href="http://uol.com"
             target="_self"
           >

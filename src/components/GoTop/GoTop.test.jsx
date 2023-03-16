@@ -1,16 +1,16 @@
-import 'jest-styled-components';
-import '@testing-library/jest-dom';
-import { screen } from '@testing-library/react';
-import renderTheme from '../../style/renderTheme';
-import GoTop from './GoTop';
+import "jest-styled-components";
+import "@testing-library/jest-dom";
+import { screen } from "@testing-library/react";
+import renderTheme from "../../style/renderTheme";
+import GoTop from "./GoTop";
 
-describe('<GoTop/>', () => {
-  test('should render GoTop with default values', () => {
+describe("<GoTop/>", () => {
+  test("should render GoTop with default values", () => {
     const { container } = renderTheme(<GoTop />);
-    expect(screen.getByRole('link', { name: 'Go top' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Go top' })).toHaveAttribute(
-      'Href',
-      '#'
+    expect(screen.getByRole("link", { name: "Go top" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Go top" })).toHaveAttribute(
+      "Href",
+      "#"
     );
     expect(container).toMatchInlineSnapshot(`
       .c0 {
@@ -31,8 +31,8 @@ describe('<GoTop/>', () => {
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
         opacity: 0.6;
         -webkit-transition: all 300ms ease-in-out;

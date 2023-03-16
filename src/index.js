@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './noPadding.css';
 import reportWebVitals from './reportWebVitals';
-import Heading from './components/Header/Heading';
+import App from './templates/App';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../src/style/theme';
-import { GlobalStyle } from './style/globalstyle';
+import { GlobalStyles } from './style/globalstyle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <Heading />
-      <GlobalStyle />
+      <App />
+      <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>
 );

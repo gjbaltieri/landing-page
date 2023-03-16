@@ -1,5 +1,8 @@
+import Base from '../Base/Base';
+import mockBase from '../Base/BaseMock';
+
 function Home() {
-  return <h1>home</h1>;
+  return <Base {...mockBase} />;
 }
 
 export default Home;
