@@ -29,7 +29,7 @@ export default function GridImage({
   );
 }
 
-GridImage.prototype = {
+GridImage.propTypes = {
   background: P.bool,
   title: P.string.isRequired,
   description: P.string.isRequired,

@@ -26,6 +26,7 @@ export const GridElement = Styled.div`
 ${({ theme }) => css`
   padding: ${theme.padding.base};
   ${HeadingComponent} {
+    font-size: ${theme.font.size.large};
     position: relative;
     left: 5rem;
   }
@@ -34,7 +35,7 @@ ${({ theme }) => css`
     counter-increment: element-counter;
     content: counter(element-counter);
     position: absolute;
-    top: -3rem;
+    top: -2rem;
     left: -5rem;
     font-size: ${theme.font.size.xxlarge};
     transform: rotate(5deg);

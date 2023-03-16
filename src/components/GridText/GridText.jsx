@@ -33,7 +33,7 @@ export default function GridText({
   );
 }
 
-GridText.prototype = {
+GridText.propTypes = {
   background: P.bool,
   title: P.string.isRequired,
   description: P.string.isRequired,

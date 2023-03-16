@@ -1,10 +1,11 @@
 import Styled, { css } from 'styled-components';
+
 export const Container = Styled.a`
     ${({ theme }) => css`
+      color: ${theme.color.heading.black};
       font-size: ${theme.font.size.base};
       padding: ${theme.padding.base};
       text-decoration: none;
-      color: ${theme.color.heading.black};
       position: relative;
       &:before {
         content: '';
@@ -23,7 +24,7 @@ export const Container = Styled.a`
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: ${theme.color.background.black};
+        background-color: white;
         transform: scaleX(0);
         transform-origin: center;
         transition: transform 0.3s ease;

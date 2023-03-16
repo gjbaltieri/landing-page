@@ -9,8 +9,8 @@ ${({ theme }) => css`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   opacity: 0.6;
   transition: all 300ms ease-in-out;

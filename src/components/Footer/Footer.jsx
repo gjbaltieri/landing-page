@@ -13,6 +13,6 @@ export default function Footer({ html }) {
   );
 }
 
-Footer.prototype = {
+Footer.propTypes = {
   html: P.string.isRequired,
 };
