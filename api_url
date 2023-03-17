@@ -1,0 +1,1 @@
+http: //localhost:1337/api/pages?populate[0]=sections&populate[1]=sections&populate[2]=sections.image&populate[3]=sections.metadata&populate[4]=sections.image_grid.image&populate[5]=sections.text_grid

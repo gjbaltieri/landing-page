@@ -5,7 +5,7 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: `<p><a href="http://www.instagram.com/gjbaltieri"> @gjbaltieri</a></p>`,
+    Footer_html: `<p><a href="http://www.instagram.com/gjbaltieri"> @gjbaltieri</a></p>`,
   },
   argTypes: {
     children: { type: 'string' },

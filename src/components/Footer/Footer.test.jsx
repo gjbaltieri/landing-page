@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 describe('<Footer/>', () => {
   test('should render Footer with default values', () => {
-    renderTheme(<Footer html={'<h1> Hello world </h1>'} />);
+    renderTheme(<Footer Footer_html={'<h1> Hello world </h1>'} />);
     expect(
       screen.getByRole('heading', { name: 'Hello world' })
     ).toBeInTheDocument();

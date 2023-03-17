@@ -11,7 +11,7 @@ export default function Base({ links = [], logoData, footerHTML, children }) {
       <Menu links={links} logoData={logoData} />
       <Styled.Container>
         {children}
-        <Footer html={footerHTML} />
+        <Footer Footer_html={footerHTML} />
       </Styled.Container>
       <GoTop />
     </>
