@@ -4,7 +4,7 @@
             "id": 9,
             "attributes": {
                 "createdAt": "2023-03-17T18:29:05.054Z",
-                "updatedAt": "2023-03-17T19:08:49.488Z",
+                "updatedAt": "2023-03-20T14:01:01.298Z",
                 "publishedAt": "2023-03-17T18:35:06.491Z",
                 "title": "Page1",
                 "slug": "page1",
@@ -314,30 +314,36 @@
                 ],
                 "menu": {
                     "id": 12,
-                    "logo_text": "my logo"
-                },
-                "menu_link": [
-                    {
-                        "id": 5,
-                        "link_text": "Twitter",
-                        "url": "http://twitter.com/gjbaltieri"
-                    },
-                    {
-                        "id": 3,
-                        "link_text": "Instagram",
-                        "url": "http://instagram.com/gjbaltieri"
-                    },
-                    {
-                        "id": 2,
-                        "link_text": "Github",
-                        "url": "http://github.com/gjbaltieri"
-                    },
-                    {
-                        "id": 4,
-                        "link_text": "Linkedin",
-                        "url": "https://www.linkedin.com/in/gustavo-baltieri-581aa623b/"
-                    }
-                ]
+                    "logo_text": "my logo",
+                    "open_in_new_tab": false,
+                    "logo_link": "#target",
+                    "menu_link": [
+                        {
+                            "id": 7,
+                            "link_text": "Instagram",
+                            "url": "http://instagram.com/gjbaltieri",
+                            "open_in_new_tab": true
+                        },
+                        {
+                            "id": 6,
+                            "link_text": "Twitter",
+                            "url": "http://twitter.com/gjbaltieri",
+                            "open_in_new_tab": true
+                        },
+                        {
+                            "id": 9,
+                            "link_text": "Linkedin",
+                            "url": "http://linkedin.com",
+                            "open_in_new_tab": true
+                        },
+                        {
+                            "id": 8,
+                            "link_text": "Github",
+                            "url": "http://github.com/gjbaltieri",
+                            "open_in_new_tab": true
+                        }
+                    ]
+                }
             }
         }
     ],
