@@ -4,7 +4,7 @@
             "id": 9,
             "attributes": {
                 "createdAt": "2023-03-17T18:29:05.054Z",
-                "updatedAt": "2023-03-20T14:01:01.298Z",
+                "updatedAt": "2023-03-21T13:21:17.559Z",
                 "publishedAt": "2023-03-17T18:35:06.491Z",
                 "title": "Page1",
                 "slug": "page1",
@@ -222,7 +222,14 @@
                         "__component": "section.section-two-columns",
                         "title": "twocolumns1",
                         "description": "Curabitur pellentesque dui tellus, vitae porttitor ante aliquam quis. Aliquam ante odio, ullamcorper ac urna ac, egestas tempor nulla. Praesent venenatis et nunc efficitur euismod. Integer a dictum lectus, quis hendrerit dolor. Sed ut justo pulvinar, placerat neque quis, mattis risus. Nullam eu lobortis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris luctus arcu egestas, auctor dolor et, maximus elit. Nunc eros neque, sollicitudin nec aliquet at, vehicula nec nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ullamcorper sapien quis sem scelerisque, eget iaculis urna sagittis. Nullam blandit placerat bibendum.",
-                        "metadata": [],
+                        "metadata": [
+                            {
+                                "id": 20,
+                                "name": "twocolumns1metadata",
+                                "section_id": "twocolumns1metadata",
+                                "background": true
+                            }
+                        ],
                         "image": {
                             "data": {
                                 "id": 8,
