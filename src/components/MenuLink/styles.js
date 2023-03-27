@@ -24,12 +24,14 @@ export const Container = Styled.a`
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: white;
+        background-color: black;
         transform: scaleX(0);
         transform-origin: center;
         transition: transform 0.3s ease;
       }
-
+      &:hover {
+        cursor: pointer;
+      }
       &:hover::after {
         transform: scaleX(1);
       }

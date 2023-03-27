@@ -5,15 +5,13 @@ export const mapData = (pageData = [{}]) => {
   return pageData.map((data) => {
     const {
       menu = {},
-      menu_link = [],
       title = '',
       sections = [],
       slug = '',
       footer_text = '',
-    } = data;
+    } = data.attributes;
     return {
       menu: mapMenu(menu),
-      menu_link: mapMenuLinks(menu_link),
       slug,
       title,
       sections: mapSections(sections),

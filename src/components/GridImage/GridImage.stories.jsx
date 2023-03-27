@@ -12,7 +12,6 @@ export default {
 };
 
 export const Template = (args) => {
-  console.log(args);
   return (
     <div>
       <GridImage {...args} />

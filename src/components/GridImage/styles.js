@@ -1,5 +1,5 @@
 import Styled, { css } from 'styled-components';
-import { Component as TextComponent } from '../TextComponent/styles';
+import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = Styled.div`
 ${({ theme }) => css`

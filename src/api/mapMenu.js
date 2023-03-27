@@ -22,13 +22,13 @@ const mapMenuLinks = (menuLinksData = []) => {
     const {
       id = null,
       link_text: children = '',
-      url = '',
+      url: link = '',
       open_in_new_tab: newTab = false,
     } = data;
     return {
       id,
       children,
-      url,
+      link,
       newTab,
     };
   });

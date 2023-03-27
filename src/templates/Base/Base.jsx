@@ -5,11 +5,10 @@ import GoTop from '../../components/GoTop/GoTop';
 import * as Styled from './styles';
 
 export default function Base({ links = [], logoData, footerHTML, children }) {
-  console.log();
   return (
     <>
-      <Menu links={links} logoData={logoData} />
       <Styled.Container>
+        <Menu links={links} logoData={logoData} />
         {children}
         <Footer Footer_html={footerHTML} />
       </Styled.Container>
